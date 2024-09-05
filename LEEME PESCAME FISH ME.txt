@@ -1,0 +1,60 @@
+.-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-.
+
+# # ¿QUÉ WEA ACABO DE DESCARGAR? # #
+
+Una compilación de libraries y archivos batch para descargar música y videos de Youtube/Spotify de alta calidad, sin pasar por las páginas qlas penca que te agarran los cocos y la IP.
+
+
+
+# # INSTALACIÓN # #
+
+>Extraer los contenidos del zip
+
+>Abrir la carpeta "PRIMERA INSTALACIÓN" y ejecutar "python-3.12.5.exe"
+
+>*IMPORTANTE* En la parte inferior del instalador, checkear las dos casillas (la primera es para asegurar que se instale correctamente, la segunda para que no tengas que meter mano en el PC para que funcione)
+
+>Seleccionar "Install Now" y esperar a que se termine de instalar
+	*Esto va a instalar Python en tu sistema, no es nada invasivo y eres libre de desinstalarlo por medios 	 	convencionales (i.e. "Agregar o quitar programas" si ya no quieres usar los script) 
+
+>Cerrar la ventana cuando el proceso termine. Eres libre de borrar esta carpeta y "python-3.12.5.exe" si lo deseas.
+
+>listo!!!11
+
+
+# # CONTENIDOS # #
+
+La carpeta debería contener lo siguiente:
+
+
+.\bin\	ffmpeg.exe / ffprobe.exe -> libraries esenciales [NO TOCAR!!!]
+	spotdl.exe -> Autoejecutable para descargar música de Spotify [NO ABRIR]*
+	yt-dlp.exe -> Autoejecutable para descargar música/videos de YouTube [NO ABRIR]*
+	yt-dlp.bat -> batch para descargar audio/video de YouTube con URL
+	La descarga *siempre* será en la calidad más alta posible; por lo tanto, ciertos videos pueden llegar a ser 	WATONE en tamaño, me da paja implementar calidad seleccionable así que paciencia o.O
+
+	spotdl.bat -> batch para descargar audio de Spotify con URL (Se conservan los metadatos)
+
+.\output\ -> Aquí se van a descargar los archivos
+
+
+# # USO # #
+
+Abrir la carpeta "bin", luego ejecutar el script que se desee ocupar (spotdl.bat o yt-dlp.bat) e ingresar el URL deseado en el formato adecuado.
+
+Ejemplos de URL: yt-dlp = https://youtu.be/uxx4dTK8QzY?si=RAlekoI4d6dj4QSi -> Video]
+			  https://www.youtube.com/playlist?list=OLAK5uy_mu67_gKXASHewaVZR4fVe3s_6bhVZKiJs -> Playlist]
+
+		spot-dl = https://open.spotify.com/track/...]
+			  https://open.spotify.com/album/...]
+
+
+*Nota: spotdl es un poco lento a comparación de yt-dlp, así que paciencia si la línea de comandos se queda pegada/no responde.
+**Nota x2: Al copiar URLs de Spotify, recomiendo usar la versión web de Spotify, personalmente tuve muchos errores usando la versión de escritorio, los cuáles misteriosamente desaparecieron al copiar los vínculos directamente desde la versión web.
+
+Todos los archivos se van a descargar dentro de la carpeta "output".
+
+
+~ * Cualquier duda, problema o feedback porfavo hablar en discord ok grax * ~
+
+.-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-..-.-.-.
