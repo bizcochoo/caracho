@@ -1,5 +1,5 @@
 ## Caracho:
-Paquete portable con archivos batch para yt-dlp/spotDL con prompts convenientes para facilitar su uso (y no pasar por Y2mate y otras páginas qlias fome.)
+Paquete portable con yt-dlp / spotDL; dependencias, librerias y archivos batch con prompts convenientes para facilitar su uso (y no pasar por Y2mate y otras páginas qlias fome.)
 
 ### Incluye:
 - Librerias ffmpeg y ffprobe.
