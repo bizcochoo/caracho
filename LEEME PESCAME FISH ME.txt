@@ -18,7 +18,7 @@ Una compilación de libraries y archivos batch para descargar música y videos d
 >*IMPORTANTE* En la parte inferior del instalador, checkear las dos casillas (la primera es para asegurar que se instale correctamente, la segunda para que no tengas que meter mano en el PC para que funcione)
 
 >Seleccionar "Install Now" y esperar a que se termine de instalar
-	*Esto va a instalar Python en tu sistema, no es nada invasivo y eres libre de desinstalarlo por medios 	 	convencionales (i.e. "Agregar o quitar programas" si ya no quieres usar los script) 
+	*Esto va a instalar Python en tu sistema, no es nada invasivo y eres libre de desinstalarlo por medios convencionales (i.e. "Agregar o quitar programas" si ya no quieres usar los script) 
 
 >Cerrar la ventana cuando el proceso termine. Eres libre de borrar esta carpeta y "python-3.12.5.exe" si lo deseas.
 
@@ -34,7 +34,7 @@ La carpeta debería contener lo siguiente:
 	spotdl.exe -> Autoejecutable para descargar música de Spotify [NO ABRIR]*
 	yt-dlp.exe -> Autoejecutable para descargar música/videos de YouTube [NO ABRIR]*
 	yt-dlp.bat -> batch para descargar audio/video de YouTube con URL
-	La descarga *siempre* será en la calidad más alta posible; por lo tanto, ciertos videos pueden llegar a ser 	WATONE en tamaño, me da paja implementar calidad seleccionable así que paciencia o.O
+	La descarga *siempre* será en la calidad más alta posible; por lo tanto, ciertos videos pueden llegar a ser WATONE en tamaño, me da paja implementar calidad seleccionable así que paciencia o.O
 
 	spotdl.bat -> batch para descargar audio de Spotify con URL (Se conservan los metadatos)
 
